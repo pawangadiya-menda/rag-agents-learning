@@ -7,7 +7,7 @@
 
 ## 🔗 Open in Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eJ79SmkRGwS3rQtdNOJ7Q8lsc643i3oK#scrollTo=Xe5puM-Hrm1G)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pEDPgicSVZqB6eXkRy11iZTQxhhhXvAF)
 
 ---
 
