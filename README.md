@@ -1,32 +1,90 @@
-# 🧭 RAG & AI Agents — A Learning Journey with a PM Lens
+# 🧭 RAG, Machine Learning & AI Agents — Learning Journey
 
-Hands-on builds documenting my transition from enterprise B2B SaaS PM to AI product management. Every project here pairs **working code** with a **product brief** — because understanding *how* it works is only half the job; knowing *when to ship it, how to evaluate it, and what it costs* is the PM half.
+A hands-on repository documenting my progression from **machine learning foundations** to **Retrieval-Augmented Generation (RAG)** and **AI agent systems**.
+
+Each area combines implementation work with a product-management lens: not only *how the system works*, but also **when to use it, how to evaluate it, and what trade-offs it introduces**.
+
+## 🗺️ Learning Journey
+
+```text
+Machine Learning Foundations
+          ↓
+Supervised Learning & Hackathons
+          ↓
+RAG Fundamentals
+          ↓
+Advanced Retrieval Concepts
+          ↓
+AI Agents & Production Applications
+```
 
 ## 📂 What's Inside
 
-| Folder | Contents |
-|---|---|
-| `day1/` | RAG fundamentals — learning notes + a product brief treating RAG as a real B2B feature (build-vs-buy, risks, success metrics) |
-| `Day2/` | Complete end-to-end RAG pipeline notebook — chunking, embeddings, retrieval, generation |
-| `day2/` | PM lens on advanced RAG — how retrieval quality decisions become product decisions |
-| `hackathons/` | IIIT Hyderabad AI/ML hackathon projects — [Titanic survival classification](https://github.com/pawangadiya-menda/titanic-survival-classification) (81%+ accuracy, VotingClassifier ensemble) and [India district literacy prediction](https://github.com/pawangadiya-menda/india-district-literacy-prediction) (90%+ accuracy, multi-classifier pipeline) |
-| `ml-foundations/` | Core ML building blocks — linear classification and the fundamentals behind the fancier stuff |
+| Area | Folder / Project | What it covers |
+|---|---|---|
+| ML Foundations | `ml-foundations/` | Core machine learning concepts and linear classification foundations |
+| RAG Fundamentals | `day1/` | Retrieval-Augmented Generation concepts, notes and product framing |
+| End-to-End RAG | `Day2/` | Chunking, embeddings, retrieval and generation pipeline work |
+| Advanced RAG / PM Lens | `day2/` | How retrieval quality and architecture decisions become product decisions |
+| Hackathons | `hackathons/` | Links and learning material for applied ML hackathon projects |
 
-## 🔍 The PM Lens
+## 🔍 Core RAG Pipeline
 
-Each build answers questions a product manager actually faces:
+```text
+Documents
+    ↓
+Chunking
+    ↓
+Embeddings
+    ↓
+Vector / Retrieval Layer
+    ↓
+Relevant Context
+    ↓
+LLM Generation
+    ↓
+Grounded Response
+```
 
-- **Build vs. buy** — when is a custom RAG pipeline worth it vs. an off-the-shelf retrieval API?
-- **Evaluation** — what does "good" mean for a retrieval system, and how do you put a number on it?
-- **Cost & latency** — token spend and response time aren't engineering details; they're pricing and UX decisions
-- **Agents vs. chatbots** — when does an agentic loop earn its complexity?
+The goal is to understand the trade-offs at every stage rather than treating RAG as a black box.
 
-## 🤖 See It Applied
+## 🎯 Product Questions Explored
 
-The concepts here power my live project: an [AI digital twin of me](https://digital-twin-1jym.onrender.com/) — grounded generation in production ([repo](https://github.com/pawangadiya-menda/digital-twin)).
+Each build is viewed through practical product questions:
 
-## About Me
+- **Build vs. buy** — when is a custom retrieval pipeline justified?
+- **Retrieval quality** — how do chunking and retrieval choices affect answer quality?
+- **Evaluation** — what should "good" mean for a RAG system?
+- **Latency and cost** — how do model and retrieval decisions affect UX and unit economics?
+- **Agents vs. workflows** — when does autonomous reasoning add enough value to justify additional complexity?
 
-Senior PM @ Accenture | 15 yrs enterprise IT | 0→1 vertical SaaS | ISB MBA | Executive AI/ML Programme, IIIT-H
+## 🧪 Applied ML Projects
 
-📫 [LinkedIn — in/pawangadiya](https://www.linkedin.com/in/pawangadiya/)
+This learning journey connects to separate repositories for focused hackathon projects:
+
+- [🚢 Titanic Survival Classification](https://github.com/pawangadiya-menda/titanic-survival-classification) — binary classification using multiple models and a VotingClassifier ensemble
+- [📚 India District Literacy Prediction](https://github.com/pawangadiya-menda/india-district-literacy-prediction) — multi-class classification using district-level education data
+- [🌿 Plant Image Denoising Autoencoder](https://github.com/pawangadiya-menda/plant-image-denoising-autoencoder) — deep learning project using paired noisy and pure plant images
+
+## 🤖 Related Agent Work
+
+- [AI Agents](https://github.com/pawangadiya-menda/Agents) — hands-on work across agent foundations, OpenAI tooling, CrewAI, LangGraph and MCP
+- [Digital Twin](https://github.com/pawangadiya-menda/digital-twin) — deployed AI chatbot grounded in professional profile data
+
+## 🛠️ Technologies Explored
+
+- Python
+- Machine Learning foundations
+- Embeddings and retrieval
+- RAG pipelines
+- LLM APIs
+- AI agents
+
+## 👤 About Me
+
+**Pawan Kumar Gadiya**  
+Senior Product Manager | B2B SaaS → AI Products | ISB MBA
+
+This repository is part of my hands-on effort to build AI/ML fluency by combining **technical implementation with product thinking**.
+
+[GitHub](https://github.com/pawangadiya-menda) · [LinkedIn](https://www.linkedin.com/in/pawangadiya/)
