@@ -71,6 +71,11 @@ This learning journey connects to separate repositories for focused hackathon pr
 - [AI Agents](https://github.com/pawangadiya-menda/Agents) — hands-on work across agent foundations, OpenAI tooling, CrewAI, LangGraph and MCP
 - [Digital Twin](https://github.com/pawangadiya-menda/digital-twin) — deployed AI chatbot grounded in professional profile data
 
+## 🧪 Mini Hackathon-2: RAG over AST Documents
+
+- [Project guide](./hackathons/mini-hackathon-2-rag/README.md) — RAG pipeline over AST-1 and AST-2 PDFs, including chunking experiments, FAISS embeddings, similarity vs. MMR retrieval, evaluation questions and a Gradio UI.
+- [Open the Google Colab notebook](https://colab.research.google.com/drive/1S55dfsOgCcva1TY6_N-1_23KJQR_gKlA?usp=sharing)
+
 ## 🛠️ Technologies Explored
 
 - Python
